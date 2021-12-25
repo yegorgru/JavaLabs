@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/runLayout"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="2dp">
+
+        <TextView
+            android:id="@+id/attention"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attention: distance can't be updated while the phone is rotating"
+            android:textColor="#F44336" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/accelerationX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acceleration X:" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/accelerationY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acceleration Y:" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/accelerationZ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acceleration Z:" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/speedX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speed X:" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/speedY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speed Y:" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/speedZ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speed Z: " />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Distance:    " />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:onClick="onFinishClick"
+        android:text="Finish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="4dp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:onClick="onStartClick"
+        android:text="Start"
+        app:layout_constraintBottom_toTopOf="@+id/finishButton"
+        tools:layout_editor_absoluteX="2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

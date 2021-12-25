@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Guns>
+    <Gun id="gun1003">
+        <Model>Berdan</Model>
+        <Handy>Two-handed</Handy>
+        <Origin>Russia</Origin>
+        <PerformanceCharacteristics>
+            <Range>average</Range>
+            <SightingRange>284</SightingRange>
+            <Clip>false</Clip>
+            <Optics>false</Optics>
+        </PerformanceCharacteristics>
+        <Material>wood</Material>
+    </Gun>
+    <Gun id="gun7">
+        <Model>Smith Wesson Model 10</Model>
+        <Handy>One-handed</Handy>
+        <Origin>USA</Origin>
+        <PerformanceCharacteristics>
+            <Range>close</Range>
+            <SightingRange>40</SightingRange>
+            <Clip>false</Clip>
+            <Optics>false</Optics>
+        </PerformanceCharacteristics>
+        <Material>wood</Material>
+    </Gun>
+    <Gun id="gun78">
+        <Model>Uzi</Model>
+        <Handy>Two-handed</Handy>
+        <Origin>Israel</Origin>
+        <PerformanceCharacteristics>
+            <Range>average</Range>
+            <SightingRange>200</SightingRange>
+            <Clip>true</Clip>
+            <Optics>false</Optics>
+        </PerformanceCharacteristics>
+        <Material>metal</Material>
+    </Gun>
+    <Gun id="gun20">
+        <Model>Makarov</Model>
+        <Handy>One-handed</Handy>
+        <Origin>USSR</Origin>
+        <PerformanceCharacteristics>
+            <Range>close</Range>
+            <SightingRange>50</SightingRange>
+            <Clip>true</Clip>
+            <Optics>false</Optics>
+        </PerformanceCharacteristics>
+        <Material>metal</Material>
+    </Gun>
+    <Gun id="gun31">
+        <Model>Beretta 92</Model>
+        <Handy>One-handed</Handy>
+        <Origin>Italy</Origin>
+        <PerformanceCharacteristics>
+            <Range>close</Range>
+            <SightingRange>50</SightingRange>
+            <Clip>false</Clip>
+            <Optics>true</Optics>
+        </PerformanceCharacteristics>
+        <Material>plastic</Material>
+    </Gun>
+</Guns>

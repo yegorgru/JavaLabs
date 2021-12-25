@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Guns">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Gun" type="Gun" minOccurs="1" maxOccurs="100"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="Gun">
+        <xs:sequence>
+            <xs:element name="Model" type="xs:string"/>
+            <xs:element name="Handy">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="One-handed"/>
+                        <xs:enumeration value="Two-handed"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Origin" type="xs:string"/>
+            <xs:element name="PerformanceCharacteristics">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Range">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="close|average|long"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="SightingRange">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:integer">
+                                    <xs:minInclusive value="1"/>
+                                    <xs:maxInclusive value="20000"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="Clip" type="xs:boolean"/>
+                        <xs:element name="Optics" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Material" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="id" use="required" type="xs:ID"/>
+    </xs:complexType>
+</xs:schema>

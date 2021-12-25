@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ClientTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-05T22:44:49" hostname="DESKTOP-KQ6B5GR" time="0.089">
+  <properties/>
+  <testcase name="testSendObject()" classname="ClientTest" time="0.089"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 06, 2021 12:44:49 AM Client send
+INFO: Send human. Name: Yehor. Age: 19
+]]></system-err>
+</testsuite>

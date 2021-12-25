@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CustomClassLoaderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-07T10:03:30" hostname="DESKTOP-KQ6B5GR" time="0.028">
+  <properties/>
+  <testcase name="checkLoadingClass()" classname="CustomClassLoaderTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

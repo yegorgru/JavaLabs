@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Guns>
+    <Gun id="gun2">
+        <Model>AK-47</Model>
+        <Handy>Two-handed</Handy>
+        <Origin>USSR</Origin>
+        <PerformanceCharacteristics>
+            <Range>average</Range>
+            <SightingRange>500</SightingRange>
+            <Clip>true</Clip>
+            <Optics>false</Optics>
+        </PerformanceCharacteristics>
+        <Material>metal</Material>
+    </Gun>
+    <Gun id="gun1">
+        <Model>M16/M4/AR-15</Model>
+        <Handy>Two-handed</Handy>
+        <Origin>USA</Origin>
+        <PerformanceCharacteristics>
+            <Range>long</Range>
+            <SightingRange>600</SightingRange>
+            <Clip>true</Clip>
+            <Optics>true</Optics>
+        </PerformanceCharacteristics>
+        <Material>metal</Material>
+    </Gun>
+    <Gun id="gun555">
+        <Model>Lee–Enfield</Model>
+        <Handy>Two-handed</Handy>
+        <Origin>UK</Origin>
+        <PerformanceCharacteristics>
+            <Range>long</Range>
+            <SightingRange>503</SightingRange>
+            <Clip>true</Clip>
+            <Optics>false</Optics>
+        </PerformanceCharacteristics>
+        <Material>metal</Material>
+    </Gun>
+    <Gun id="gun100">
+        <Model>SKS</Model>
+        <Handy>Two-handed</Handy>
+        <Origin>USSR</Origin>
+        <PerformanceCharacteristics>
+            <Range>average</Range>
+            <SightingRange>400</SightingRange>
+            <Clip>false</Clip>
+            <Optics>false</Optics>
+        </PerformanceCharacteristics>
+        <Material>wood</Material>
+    </Gun>
+    <Gun id="gun53">
+        <Model>Glock 19</Model>
+        <Handy>One-handed</Handy>
+        <Origin>Austria</Origin>
+        <PerformanceCharacteristics>
+            <Range>close</Range>
+            <SightingRange>50</SightingRange>
+            <Clip>true</Clip>
+            <Optics>true</Optics>
+        </PerformanceCharacteristics>
+        <Material>plastic</Material>
+    </Gun>
+</Guns>

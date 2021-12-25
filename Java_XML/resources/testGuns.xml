@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Guns>
+    <Gun id="gun1">
+        <Model>AK-47</Model>
+        <Handy>Two-handed</Handy>
+        <Origin>USSR</Origin>
+        <PerformanceCharacteristics>
+            <Range>average</Range>
+            <SightingRange>500</SightingRange>
+            <Clip>true</Clip>
+            <Optics>false</Optics>
+        </PerformanceCharacteristics>
+        <Material>metal</Material>
+    </Gun>
+    <Gun id="gun2">
+        <Model>M16/M4/AR-15</Model>
+        <Handy>One-handed</Handy>
+        <Origin>USA</Origin>
+        <PerformanceCharacteristics>
+            <Range>long</Range>
+            <SightingRange>600</SightingRange>
+            <Clip>false</Clip>
+            <Optics>true</Optics>
+        </PerformanceCharacteristics>
+        <Material>plastic</Material>
+    </Gun>
+</Guns>
